@@ -1,8 +1,7 @@
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Location from '../../components/Location'
-import Image from 'next/image'
-import Link from 'next/link'
+import BuildingGallery from '../../components/BuildGallary'
 import React from 'react'
 
 export default function page() {
@@ -30,6 +29,7 @@ export default function page() {
         ></video>
       </div>
     </section>
+     <BuildingGallery/>
     {/* <Enroll /> */}
     <Location />
     <Footer />
