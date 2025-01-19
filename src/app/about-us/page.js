@@ -35,14 +35,12 @@ export default function page() {
       <section className="about">
         <h2 className="font-bold text-3xl">About Us</h2>
         <div className="video-container">
-          {/* <!-- Video embed code would go here --> */}
           <video
             controls
             src="./WhatsApp Video 2025-01-16 at 08.46.48.mp4"
           ></video>
         </div>
       </section>
-      {/* <Enroll /> */}
       <Location />
       <Footer />
     </div>

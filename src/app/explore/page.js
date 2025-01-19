@@ -24,7 +24,6 @@ export default function page() {
       <h2 className="font-bold text-3xl">Inside Our Build
       </h2>
       <div className="video-container">
-        {/* <!-- Video embed code would go here --> */}
         <video
           controls
           src="./Children_s/Video/7A4112E2-7609-45A1-A0D8-A0EF6FC91EF8.mov"
