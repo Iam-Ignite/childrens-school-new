@@ -4,43 +4,45 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <footer  id="contact" className="p-6 bg-white">
-      <div className="md:flex justify-between md:px-24">
-        <Image
-          src="/logo.png"
-          alt="Children's House School Logo"
-          width={150}
-          height={75}
-          className={styles.logo}
-          priority={false}
-        />
-        <div className={styles.contactInfo}>
-          <h3>Get in Touch</h3>
-          <p className={styles.flex}>
-            <PhoneIcon />
-            0903 715 0978
-          </p>
-          <p className={styles.flex}>
-            <LocationIcon />
-            Orchid Hotel Road, Eleganza Bus Stop Lekki, Lagos State, Nigeria
-          </p>
-          <p className={styles.flex}>
-            <EmailIcon />
-            children'shouseschool@gmail.com
-          </p>
-          <p className={styles.flex}>
-            <InstagramIcon />
-            <Link href="https://www.instagram.com/childrenshouse_school/">
-              childrenshouse_school
-            </Link>
-          </p>
-        </div>
+    <footer id="contact" className="p-6 bg-white">
+    <div className="md:flex justify-between md:px-24">
+      <Image
+        src="/logo.png"
+        alt="Children's House School Logo"
+        width={150}
+        height={75}
+        className={styles.logo}
+        priority={false}
+      />
+      <div className={styles.contactInfo}>
+        <h3>Get in Touch</h3>
+        <p className={styles.flex}>
+          <PhoneIcon />
+          0903 715 0978
+        </p>
+        <p className={styles.flex}>
+          <LocationIcon />
+          Orchid Hotel Road, Eleganza Bus Stop Lekki, Lagos State, Nigeria
+        </p>
+        <p className={styles.flex}>
+          <EmailIcon />
+          childrenshouseschool@gmail.com
+        </p>
+        <p className={styles.flex}>
+          <InstagramIcon />
+          <Link href="https://www.instagram.com/childrenshouse_school/" passHref>
+            childrenshouse_school
+          </Link>
+        </p>
       </div>
-      <p className={styles.copyright}>
-        Developed by{" "}
-        <Link href="https://diditechnologies.com">Didi Technologies</Link>
-      </p>
-    </footer>
+    </div>
+    <p className={styles.copyright}>
+      Developed by{" "}
+      <Link href="https://diditechnologies.com" passHref>
+        Didi Technologies
+      </Link>
+    </p>
+  </footer>
   );
 }
 

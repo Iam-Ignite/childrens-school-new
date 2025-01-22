@@ -51,6 +51,8 @@ export default function Header() {
         />
         <meta name="author" content="Children's House School" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:url" content="https://www.childrenshouseschool.net/" />
+
       </Head>
       <header className="flex items-center px-6 md:px-16 justify-between p-4 bg-white">
         <Image
